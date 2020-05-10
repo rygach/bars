@@ -1,0 +1,64 @@
+body .root .container .container-inps, body .root .container .container-btns {
+  width: 46%;
+  height: 100%;
+  padding: 10px;
+}
+
+body .root .container .container-inps, body .root .container .container-btns, body .root .output-info {
+  background-color: #ffffff;
+  border: 1px #cacbce solid;
+  border-radius: 5px;
+}
+
+body {
+  font-size: 15px;
+  font-family: "Roboto", sans-serif;
+  background-color: #edeef0;
+}
+
+body .root {
+  width: 70%;
+  margin: auto;
+}
+
+body .root .container {
+  height: 150px;
+}
+
+body .root .container .container-inps {
+  float: left;
+}
+
+body .root .container .container-inps .main-page-inputs {
+  width: 100%;
+  height: 18.7%;
+  margin-top: 5px;
+  border: 0px;
+  border-radius: 3px;
+  font-weight: bold;
+  text-align: center;
+}
+
+body .root .container .container-btns {
+  float: right;
+}
+
+body .root .container .container-btns .main-page-btns {
+  width: 100%;
+  height: 20%;
+  margin-top: 5px;
+  background-color: #ffffff;
+  cursor: pointer;
+  border: 0px;
+  border-radius: 3px;
+  font-weight: bold;
+}
+
+body .root .container .container-btns .main-page-btns:hover {
+  background-color: #bbb9ff;
+}
+
+body .root .output-info {
+  margin-top: 30px;
+  padding: 20px;
+}
